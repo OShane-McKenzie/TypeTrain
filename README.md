@@ -1,18 +1,87 @@
-This is a Kotlin Multiplatform project targeting Web.
+# TypeTrain - Interactive Typing and Mouse Accuracy Trainer
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+![TypeTrain Logo](screenshots/login.png)
 
+TypeTrain is a modern, interactive web application built with Kotlin/WASM and Jetpack Compose for Web that helps users improve their typing speed and mouse accuracy through engaging training exercises.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## 🎯 Features
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+### 🖱️ Mouse Accuracy Trainer
+![Mouse Trainer Screenshot](screenshots/mouseTrainer.png)
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+- Progressive difficulty levels
+- Dynamic target tracking with real-time score feedback
+- Visual performance indicators through color-coded progress bars
+- Penalty system for misclicks to encourage precision
+- High score tracking to measure improvement
+- Adaptive difficulty: Time reduces by 5 seconds as you advance through levels
+
+### ⌨️ Keyboard Typing Trainer
+![Keyboard Trainer Screenshot](screenshots/keyboardTrainer.png)
+
+- Collection of carefully crafted sentences for typing practice
+- Progressive difficulty with increasingly complex sentences
+- Real-time accuracy and speed tracking
+- Timer-based challenges to improve typing under pressure
+- High score system to track personal bests
+
+## 🎯 Who Is It For?
+
+- Students looking to improve their typing efficiency for academic work
+- Professionals who want to enhance their productivity through better typing speed
+- Gamers seeking to improve their mouse accuracy and reaction time
+- Anyone interested in developing better computer interaction skills
+- Educational institutions teaching computer literacy
+- Office workers wanting to reduce typing-related fatigue through better technique
+
+## 🚀 Benefits
+
+- Improve typing speed and accuracy in an engaging way
+- Enhance mouse precision for better productivity
+- Track progress through detailed metrics
+- Practice in a stress-free, gamified environment
+- Develop muscle memory through regular practice
+- Reduce errors in daily computer usage
+
+## 💻 Technical Details
+
+- Built with Kotlin Multiplatform (KMP) targeting WebAssembly
+- Uses Jetpack Compose for the user interface
+- Theme customization support
+- Smooth animations and transitions
+- No backend required - runs entirely in the browser
+
+## 🎨 Features
+
+- Clean, modern user interface
+- Multiple theme options
+- Real-time performance metrics
+- Progressive difficulty system
+- High score tracking
+- Responsive design
+- Smooth animations
+
+## 🛠️ Getting Started
+
+1. Visit the TypeTrain website
+2. Choose between Mouse Trainer or Typing Trainer
+3. Track your improvement through the high score system
+
+## 💡 Tips for Best Results
+
+- Practice regularly for consistent improvement
+- Pay attention to accuracy before focusing on speed
+- Take breaks to prevent fatigue
+- Use the high score system to set personal goals
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+## 📝 License
+
+This project is licensed under the GPL3 License - see the LICENSE file for details.
+
+---
+
+Made with ❤️ using Kotlin/WASM and Jetpack Compose
